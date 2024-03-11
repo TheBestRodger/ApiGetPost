@@ -9,7 +9,7 @@ def hello():
 
 @app.route('/bye', methods=['GET'])
 def goodbye():
-    return 'Пока'
+    return 'Пока.'
 
 if __name__ == '__main__':
     app.run()
